@@ -14,8 +14,13 @@ using Alexa.NET;
 
 namespace tutorial
 {
+   
     public class Function
     {
+        public void test()
+        {
+            //yes
+        }
         public SkillResponse FunctionHandler(SkillRequest input, ILambdaContext context)
         {
             ILambdaLogger log = context.Logger;
