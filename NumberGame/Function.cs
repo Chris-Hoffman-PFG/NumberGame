@@ -10,12 +10,17 @@ using Newtonsoft.Json;
 using Alexa.NET;
 
 //wow so cool
+//dogs are nice animals
 [assembly: LambdaSerializerAttribute(typeof(Amazon.Lambda.Serialization.Json.JsonSerializer))]
 
 namespace tutorial
 {
     public class Function
     {
+        public void test()
+        {
+            //no
+        }
         public SkillResponse FunctionHandler(SkillRequest input, ILambdaContext context)
         {
             ILambdaLogger log = context.Logger;
