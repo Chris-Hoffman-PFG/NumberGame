@@ -9,9 +9,7 @@ using Alexa.NET.Request.Type;
 using Newtonsoft.Json;
 using Alexa.NET;
 
-// test comment for
-//another test comment
-// Assembly attribute to eawe;oiajfa;we fsnable the Lambda function's JSON input to be converted into a .NET class.
+//bye bye
 [assembly: LambdaSerializerAttribute(typeof(Amazon.Lambda.Serialization.Json.JsonSerializer))]
 
 namespace tutorial
