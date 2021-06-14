@@ -9,7 +9,7 @@ using Alexa.NET.Request.Type;
 using Newtonsoft.Json;
 using Alexa.NET;
 
-//bye bye
+//wow so cool
 [assembly: LambdaSerializerAttribute(typeof(Amazon.Lambda.Serialization.Json.JsonSerializer))]
 
 namespace tutorial
