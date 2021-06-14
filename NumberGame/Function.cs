@@ -20,7 +20,7 @@ namespace tutorial
     {
         public void test()
         {
-            //no
+            //noofkalbna
         }
         public SkillResponse FunctionHandler(SkillRequest input, ILambdaContext context)
         {
